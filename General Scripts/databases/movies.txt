@@ -1,0 +1,58 @@
+use movies;
+
+CREATE TABLE movies(
+	Title VARCHAR(255),
+    Budget INT(30) NOT NULL,
+	Release_year DATE(50) NOT NULL,
+    Revenue DECIMAL(15,2) NOT NULL,
+    Runtime DECIMAL(5, 2) NOT NULL,
+    Rating DECIMAL(2,2),
+    PRIMARY KEY(Title));
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Avatar", 237000000, "2009-12-10", 2787965087, 162, 7.2);  
+
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Titanic",200000000, "1997-11-18", 1845034188, 194, 7.5);
+
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("The Avengers", 220000000, "2012-04-25", 1519557910, 143, 7.4);
+    
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Jurassic World", 150000000, "2015-06-09", 1513528810, 124, 6.5); 
+    
+INSERT INTO movie_shows (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Furious 7", 190000000, "2015-04-01", 1506249360, 137,	7.3);
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Avengers: Age of Ultron",	280000000, "2015-04-22", 1405403694, 141, 7.3);
+
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Frozen", 150000000, "2013-11-27", 1274219009, 102, 7.3);
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Minions",	74000000, "2015-06-17", 1156730962, 91, 6.4);
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Iron Man 3", 200000000, "2013-04-18", 1215439994,	130, 6.8);
+
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Captain America: Civil War", 250000000, "2016-04-27", 1153304495, 147,7.1);
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Transformers: Dark of the Moon", 195000000, "2011-06-28",	1123746996,	154, 6.1);
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Transformers: Age of Extinction", 210000000, "2014-06-25", 1091405097, 165, 5.8);
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("The Lord of the Rings: The Return of the King",	94000000, "2003-12-01", 1118888979, 201, 8.1);
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Skyfall",	200000000, "2012-10-25", 1108561013,	143, 6.9);
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("The Dark Knight Rises", 250000000, "2012-07-16", 1084939099,	165, 7.6);
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Toy Story 3",	200000000, "2010-06-16", 1066969703, 103, 7.6);
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Pirates of the Caribbean: Dead Man’s Chest", 200000000, "2006-06-20", 1065659812,	151, 7);
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Pirates of the Caribbean: On Stranger Tides",	380000000,	"2011-05-14", 1045713802, 136, 6.4);
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("Alice in Wonderland", 200000000, "2010-03-03", 1025491110, 108, 6.4);
+    
+INSERT INTO movies (Title, Budget, Release_year, Revenue, Runtime, Rating) VALUES ("The Hobbit: An Unexpected Journey", 250000000, "2012-11-26", 1021103568,	169, 7);
+
+
+
+
+
+
+    
