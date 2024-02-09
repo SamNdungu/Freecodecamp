@@ -4,6 +4,7 @@ It's time to put your Python skills to the test. By completing these projects, y
 
 
 1. **Arithmetic Formatter**
+   
 
 Create a function that receives a list of strings that are arithmetic problems and returns the problems arranged vertically and side-by-side. The function should optionally take a second argument. When the second argument is set to True, the answers should be displayed.
 
@@ -14,6 +15,7 @@ See the full solution on replit [Here](https://replit.com/@WsNdungu/boilerplate-
 
 
 2. **Time Calculator**
+   
 
 Write a function named add_time that takes in two required parameters and one optional parameter:
 
@@ -31,6 +33,7 @@ See the full solution on replit [Here](https://replit.com/@WsNdungu/boilerplate-
 
 
 3. **Budget App**
+    
 
 Complete the Category class in budget.py. It should be able to instantiate objects based on different budget categories like food, clothing, and entertainment. When objects are created, they are passed in the name of the category. The class should have an instance variable called ledger that is a list. The class should also contain the following methods:
 
@@ -48,6 +51,7 @@ See the full solution on replit [Here](https://replit.com/@WsNdungu/boilerplate-
 
 
 4. **Polygon Area Calculator**
+   
 
 In this project you will use object oriented programming to create a Rectangle class and a Square class. The Square class should be a subclass of Rectangle and inherit methods and attributes.
 
@@ -67,3 +71,20 @@ When a Rectangle object is created, it should be initialized with width and heig
 
 
 See the full solution on replit [Here](https://replit.com/@WsNdungu/boilerplate-polygon-area-calculator#shape_calculator.py)
+
+
+
+5. **Probability Calculator**
+   
+
+Suppose there is a hat containing` 5 blue balls, 4 red balls, and 2 green balls`. What is the probability that a random draw of 4 balls will contain at least 1 red ball and 2 green balls? While it would be possible to calculate the probability using advanced mathematics, an easier way is to write a program to perform a large number of experiments to estimate an approximate probability.
+
+For this project, you will write a program to determine the approximate probability of drawing certain balls randomly from a hat.
+
+First, create a Hat class in prob_calculator.py. The class should take a variable number of arguments that specify the number of balls of each color that are in the hat. For example, a class object could be created in any of these ways:
+
+
+[See full instructions here](https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/probability-calculator)
+
+
+See the full solution on replit [Here](https://replit.com/@WsNdungu/boilerplate-probability-calculator#prob_calculator.py)
